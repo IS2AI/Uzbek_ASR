@@ -1,4 +1,4 @@
-# Uzbek_ASR
+# Uzbek_ASR_TUIT
 
 
 This repository provides the recipe for the paper [USC: An Open-Source Uzbek Speech Corpus](link-will-be-here). 
@@ -31,13 +31,13 @@ To train the models, run the script `./run.sh` inside `Uzbek_ASR/<exp-name>/` fo
 
 ## Pre-trained model
 
-You can find the link to the latest pre-trained Conformer model [here](path-to-the-best-model). Untar it in `Uzbek_ASR/<exp-name>/`. 
+You can find the link to the latest pre-trained [Conformer model](https://issai.nu.edu.kz/wp-content/uploads/2021/07/model.tar.gz). Untar it in `Uzbek_ASR/<exp-name>/`. 
 
 ## Inference
 To decode a single audio, specify paths to the following files inside `recog_wav.sh` script:
 ```
 lang_model= path to rnnlm.model.best
-cmvn= path to cmvn.ark for example data/train/cmvn.ark
+cmvn= path to cmvn.ark, for example data/train/cmvn.ark
 recog_model= path to e2e model, in case of conformer: model.last10.avg.best 
 ```
 Then, run the following script:
