@@ -5,7 +5,7 @@ This repository provides the recipe for the paper [USC: An Open-Source Uzbek Spe
 
 ## Authors
 
-The Uzbek speech corpus (USC) has been developed in academic collaboration between ISSAI and [TUIT](https://tuit.uz/). 
+The Uzbek speech corpus (USC) has been developed in academic collaboration between ISSAI and [Image and Speech Processing Laboratory, Department of Computer Systems, TUIT](https://tuit.uz/en/kompyuter-tizimlari). 
 
 **Authors:**
 - Muhammadjon Musaev;
