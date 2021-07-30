@@ -1,7 +1,19 @@
-# Uzbek_ASR_TUIT
+# Uzbek_ASR
 
 
-This repository provides the recipe for the paper [USC: An Open-Source Uzbek Speech Corpus](link-will-be-here). 
+This repository provides the recipe for the paper [USC: An Open-Source Uzbek Speech Corpus](link-will-be-here).
+
+## Authors
+
+The Uzbek speech corpus (USC) has been developed in academic collaboration between ISSAI and [TUIT](https://tuit.uz/). 
+
+**Authors:**
+- Muhammadjon Musaev;
+- Saida Mussakhojayeva;
+- Ilyos Khujayorov;
+- Yerbolat Khassanov;
+- Mannon Ochilov;
+- Huseyin Atakan Varol;
 
 ## Setup and Requirements 
 
@@ -20,7 +32,7 @@ The directory for running the experiments (`Uzbek_ASR/<exp-name`) can be created
 
 ## Downloading the dataset
  
-Download ISSAI_USC dataset and untar in the directory of your choice. Specify the path to the data in  `./run.sh` script:
+Download [USC dataset](https://issai.nu.edu.kz/uzbek-asr/) and untar in the directory of your choice. Specify the path to the data in  `./run.sh` script:
 ```
 dataset_dir=/path-to/ISSAI_USC
 ```
@@ -43,3 +55,4 @@ recog_model= path to e2e model, in case of conformer: model.last10.avg.best
 Then, run the following script:
 ```
 ./recog_wav.sh <path-to-audio-file>
+```
