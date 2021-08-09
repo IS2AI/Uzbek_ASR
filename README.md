@@ -1,7 +1,7 @@
 # Uzbek_ASR
 
 
-This repository provides the recipe for the paper [USC: An Open-Source Uzbek Speech Corpus](link-will-be-here).
+This repository provides the recipe for the paper [USC: An Open-Source Uzbek Speech Corpus](https://arxiv.org/abs/2107.14419).
 
 ## Authors
 
